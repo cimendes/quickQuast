@@ -18,6 +18,6 @@ for item in l:
 	files=files + str(item) + " "
 quastDirectory=quastDirectory + "/"
 
-os.system("python %squast.py -o %s -R %s -t 6 %s" % (currentDir, outputDirectory, pathRefGenone, files))
+os.system("python %squast.py -o %s -R %s -t 6 %s" % (quastDirectory, outputDirectory, pathRefGenone, files))
 
 print "The script has finished!"
